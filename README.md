@@ -4,25 +4,18 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#installing-webots">Installing Webots</a></li>
-    <li>
-      <a href="#understanding-webots">Understanding Webots</a>
-      <ul>
-        <li><a href="#understanding-nodes">Understanding Nodes</a></li>
-        <li><a href="#understanding-nodes">Understanding Code</a></li>
-      </ul>
-    </li>
+    <li><a href="#understanding-webots">Understanding Webots</a></li>
     <li><a href="#task">Task</a></li>
   </ol>
 </details>
 
 
 ## About The Project
-This is a CS capstone project that is currently designing a new robot for your class... 
+This is a CS capstone project that is currently designing a new robot for your AI class. We need help getting feedback on the usefulness of the virtual robot, so getting that feedback from current students will help future students.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+The virtual world is currently in development and these GitHub instructions were set up in less than a week, so your task this week is to download Webots (the program used for simulating the robot)
 
-*Example bullet point
-
+*I will add screenshots in the future*
 
 ## Webots Setup
 
@@ -33,44 +26,34 @@ If you aren't on Windows, you'll need to click the arrow next to the download bu
 
 * Run the installer you just downloaded
 * On Windows, you might get the Windows protected your PC. Click "More info" then run anyways
-* Follow the instructions
+* Follow the installer instructions
+* After installing, uncheck "Launch Webots," then click finish
 
 
-Once you installed webots, clone this github...
+Once you've installed Webots, clone this GitHub to your PC.
 
 ## Understanding Webots
 
-To start, in the file explorer open up the file from this GitHub at ...AI-Robots-Capstone\Webots\worlds\FirstChallenge.wbt
+Let's start by opening up Webots 
 
-*Exit out of tutorial stuff*
+* In the file explorer open up the file from this GitHub at ...AI-Robots-Capstone\Webots\worlds\moose_demo.wbt
+* When you open up Webots for the first time, choose which theme you like, and press "Start Webots with the selected theme."
+* Close out of the guided tutorial window
 
-*Explain each window including the play simulation*
+The word you opened up is one of Webot's demo worlds. In this world, the robot moves back and forth hitting checkpoints. Let's start by explaining how to control your camera in Webots.
 
-*Teach how to look around with camera*
+* To rotate the camera, hold left-click while moving your mouse inside the simulation window
+* To move the camera, hold right-click while moving your mouse inside the simulation window
 
-### Understanding Nodes
+Once you've tried controlling the camera, let's control the simulation by looking at other windows.
 
-*Extra information*
+* Above the simulation window, you'll see a bunch of icons, you can see what they do by hovering over them
+* The most useful buttons are the pause/play simulation button. Click the pause button between all the arrows to pause the simulation
+* To the left of that, click the |<< button or the reset simulation button
+* Because you paused the simulation before you reset it, it will start paused until you press play again. Now go back to where the pause button was and press play
 
-*Brief Explaination*
-
-*Have them make a cube*
-
-*Solid->move box from center->clidren/shape->geometry/box->size->material->diffuse color->bounding object->physics*
-
-### Understanding Code
-
-*Basic explaination of the controller*
-
-*Write code for the robot to move forward*
-
-*Compile & test code*
+To the left of the simulation, you have all your objects. To the right, you have the built-in text editor for your robot. Next week we will cover how to use them.
 
 ## Task
 
-*Explain challenge again*
-
-*Once completed, fill out form*
-[https://forms.gle/rBniEH7UuqJXANCg7](https://forms.gle/rBniEH7UuqJXANCg7)
-
-*Turn in extra steps*
+There is no task or anything you need to turn in this week. If you are having trouble installing Webots, let Dr. Grichnik know.
